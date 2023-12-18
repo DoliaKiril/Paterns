@@ -1,0 +1,93 @@
+{
+  "containers": [
+    {
+      "ID": 1,
+      "weight": 500.0,
+      "type": "Basic"
+    },
+    {
+      "ID": 2,
+      "weight": 3500.0,
+      "type": "Basic"
+    },
+    {
+      "ID": 3,
+      "weight": 5500.0,
+      "type": "Heavy"
+    },
+    {
+      "ID": 4,
+      "weight": 4200.0,
+      "type": "Refrigerated"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "weight": 2.5,
+      "count": 10,
+      "container_type": "Basic",
+      "item_type": "Basic"
+    },
+    {
+      "id": 2,
+      "weight": 2.5,
+      "count": 10,
+      "container_type": "Basic",
+      "item_type": "Basic"
+    },
+    {
+      "id": 3,
+      "weight": 3.0,
+      "count": 8,
+      "container_type": "Basic",
+      "item_type": "Refrigerated"
+    },
+    {
+      "id": 4,
+      "weight": 2.0,
+      "count": 15,
+      "container_type": "Heavy",
+      "item_type": "Liquid"
+    }
+  ],
+  "ports": [
+    {
+      "ID": 1,
+      "latitude": 40.7128,
+      "longitude": 74.006
+    },
+    {
+      "ID": 2,
+      "latitude": 41.8781,
+      "longitude": -87.6298
+    },
+    {
+      "ID": 3,
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    }
+  ],
+  "ships": [
+    {
+      "ID": 1,
+      "fuel": 1000.0,
+      "totalWeightCapacity": 5000.0,
+      "maxContainers": 10,
+      "maxHeavy": 5,
+      "maxRefrigerated": 3,
+      "maxLiquid": 2,
+      "fuelConsumptionPerKM": 0.2
+    },
+    {
+      "ID": 2,
+      "fuel": 1200.0,
+      "totalWeightCapacity": 6000.0,
+      "maxContainers": 12,
+      "maxHeavy": 6,
+      "maxRefrigerated": 4,
+      "maxLiquid": 3,
+      "fuelConsumptionPerKM": 0.18
+    }
+  ]
+}
